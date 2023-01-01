@@ -52,6 +52,10 @@ input, textarea{
     color: var(--color-white);
 }
 
+::-webkit-input-placeholder{
+    color: var(--color-primary);
+}
+
 .popup-text{
     color: var(--color-bg);
     border: none;
