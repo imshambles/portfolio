@@ -5,10 +5,12 @@ nav{
     padding: 0.7rem 1.7rem;
     position: fixed;
     z-index: 2;
-    left: 50%;
+    left: 5%;
     transform: translate(-50%);
     bottom: 2rem;
     display: flex;
+    flex-direction: column;
+    align-items: left;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
@@ -28,7 +30,21 @@ nav a:hover{
 }
 
 nav a.active{
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-primary);
+    color: var(--color-bg);
 }
 
+@media screen and (max-width: 1024px){
+    nav{
+        flex-direction: row;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: row;
+        left: 50%;
+        width: 100%;
+    }
+}
