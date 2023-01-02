@@ -28,25 +28,28 @@ const About = () => {
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>20+ Worldwide</small>
+              <h5>Collaborations?</h5>
+              <small>Actively</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>15+ completed</small>
+              <small>10+ completed</small>
             </article>
           </div>
           <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-              fugiat tempore commodi! Est, laboriosam accusamus? Perspiciatis
-              quia et nobis blanditiis nihil tenetur iste omnis eveniet, placeat
-              quod laborum pariatur itaque.
-            </p>
-            <a href="#contact" className="btn btn-primary">
-              Let's talk
-            </a>
+            I am a Software engineer for Wipro Technologies, currently working
+            as a core UI engineer for Cynergy Bank, UK. I speak JavaScript
+            fluently, can paint with CSS as well (these aren't the only arrows
+            in my quiver). Being a lazy one, I dont like to code the same thing
+            twice. I try to be an active listener and an original thinker which
+            makes team collaborations fruitful. If you are intrigued, lets have
+            a chat. Cheers!
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's talk
+          </a>
         </div>
       </div>
     </section>
