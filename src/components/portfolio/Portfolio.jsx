@@ -18,10 +18,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG1} alt="Project1" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Friday - The Future</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/imshambles/friday"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -29,7 +29,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://github.com"
+              href="https://friday-six.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
