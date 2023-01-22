@@ -16,9 +16,10 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={IMG1} alt="Project1" />
+            <img src={IMG4} alt="Project1" />
           </div>
           <h3>Friday - The Future</h3>
+          <p>Friday is an implementation of OpenAI api and uses Natural Language processing to answer the questions asked. Give it a try!</p>
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/imshambles/friday"
@@ -43,24 +44,25 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="Project2" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Character Recognizer</h3>
+          <p>Character Recognizer is a Deep-Learning based model that is being used for recognizing handwritten characters.</p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/imshambles/Character-Recognition"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
               GitHub
             </a>
-            <a
+            {/* <a
               href="https://github.com"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
 
@@ -68,99 +70,25 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG3} alt="Project3" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>NewsApp</h3>
+          <p>NewsApp is a news portal that uses News-API for real-time updation. It is built using ReactJS.</p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/imshambles/NewsApp"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
               GitHub
             </a>
-            <a
+            {/* <a
               href="https://github.com"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG4} alt="Project4" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG5} alt="Project5" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="Project6" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
       </div>
