@@ -23,7 +23,7 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1.5+ years working</small>
+              <small>2+ years working</small>
             </article>
 
             <article className="about_card">
@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <p>
             I am a Software engineer for Wipro Technologies, currently working
-            as a core UI engineer for Cynergy Bank, UK. I speak JavaScript
+            as a core UI engineer for British Petroleum, UK. I speak JavaScript
             fluently, can paint with CSS as well (these aren't the only arrows
             in my quiver). Being a lazy one, I dont like to code the same thing
             twice. I try to be an active listener and an original thinker which
