@@ -118,7 +118,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icons" />
               <div>
-                <h4>JAMstack(ContentFul/Drupal)</h4>
+                <h4>JAMstack</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
